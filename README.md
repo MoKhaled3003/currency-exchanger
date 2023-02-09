@@ -17,6 +17,7 @@ Note: please setup environment variables file so the application work properly a
 # production mode using docker
 $ docker compose up
 ```
+- you can start react application by visiting ```http://localhost:3001/```
 ## Running the Node App in development mode
 
 - cd to ```'currency-exchanger/apps/backend'``` directory
