@@ -1,0 +1,33 @@
+.drop-down-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-button {
+    width: 84px;
+    height: 40px;
+    align-items: center;
+    padding: 55px 5px 10px 5px;
+    display: flex;
+    margin-bottom: -5px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+.equal-sign{
+    display: flex;
+    align-items: center;
+    padding:50px 5px 10px 5px;
+}
+
+.exchange-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 60px 328px 45px 222px;
+}

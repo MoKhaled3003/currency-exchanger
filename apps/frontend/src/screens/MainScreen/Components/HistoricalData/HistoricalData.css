@@ -1,0 +1,8 @@
+.history-container {
+    width: 1095px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1px 328px 45px 222px;
+}
