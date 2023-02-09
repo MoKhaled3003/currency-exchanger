@@ -4,6 +4,6 @@ module.exports = async function mongodb() {
   try {
     await mongoose.connect(process.env.MONGODB_URI);
   } catch (error) {
-    throw Error(err.message)
+    throw Error(error.message)
   }
 }
