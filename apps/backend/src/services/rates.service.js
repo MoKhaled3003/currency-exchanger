@@ -12,9 +12,12 @@ module.exports = async function RatesService() {
   };
   try{
     const response = await axios.request(options);
-    await Rates.create({
+    await Rates.findOneAndUpdate({ base: "USD" }, {
       base: "USD",
       rates: JSON.stringify(response.data.rates),
+    }, {
+      new: true,
+      upsert: true,
     });
     return response.data.rates
   } catch(error){
